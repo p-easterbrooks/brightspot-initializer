@@ -1,0 +1,1 @@
+define(["jquery","bsp-utils","spectrum"],function(e,t){t.onDomInsert(document,":text.color",{insert:function(t){e(t).spectrum({allowEmpty:!0,cancelText:"Cancel",chooseText:"OK",preferredFormat:"hex6",showAlpha:!0,showInitial:!0,showInput:!0})}})});

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: pauleasterbrooks
+Build-Jdk: 1.8.0_65
+Dari-ClassFinder-Include: true
+Dari-SourceFilter-JavaSources: /Users/pauleasterbrooks/workspace/proje
+ cts/training_resources/default_project/src/main/java
+Dari-SourceFilter-WebappSources: /Users/pauleasterbrooks/workspace/pro
+ jects/training_resources/default_project/src/main/webapp
+

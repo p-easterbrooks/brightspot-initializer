@@ -1,0 +1,7 @@
+/*
+ * Pixastic Lib - Blur Fast - v0.1.1
+ * Copyright (c) 2008 Jacob Seidelin, jseidelin@nihilogic.dk, http://blog.nihilogic.dk/
+ * License: [http://www.pixastic.com/lib/license.txt]
+ */
+
+Pixastic.Actions.blurfast={process:function(t){var a=parseFloat(t.options.amount)||0,e=!(!t.options.clear||"false"==t.options.clear);if(a=Math.max(0,Math.min(5,a)),Pixastic.Client.hasCanvas()){var i=t.options.rect,r=t.canvas.getContext("2d");r.save(),r.beginPath(),r.rect(i.left,i.top,i.width,i.height),r.clip();var n=2,s=Math.round(t.width/n),o=Math.round(t.height/n),h=document.createElement("canvas");h.width=s,h.height=o;for(var e=!1,c=Math.round(20*a),g=h.getContext("2d"),l=0;c>l;l++){var d=Math.max(1,Math.round(s-l)),m=Math.max(1,Math.round(o-l));g.clearRect(0,0,s,o),g.drawImage(t.canvas,0,0,t.width,t.height,0,0,d,m),e&&r.clearRect(i.left,i.top,i.width,i.height),r.drawImage(h,0,0,d,m,0,0,t.width,t.height)}return r.restore(),t.useData=!1,!0}if(Pixastic.Client.isIE()){var p=10*a;return t.image.style.filter+=" progid:DXImageTransform.Microsoft.Blur(pixelradius="+p+")",t.options.fixMargin,0||(t.image.style.marginLeft=(parseInt(t.image.style.marginLeft,10)||0)-Math.round(p)+"px",t.image.style.marginTop=(parseInt(t.image.style.marginTop,10)||0)-Math.round(p)+"px"),!0}},checkSupport:function(){return Pixastic.Client.hasCanvas()||Pixastic.Client.isIE()}};
