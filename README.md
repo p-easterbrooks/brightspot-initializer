@@ -1,4 +1,4 @@
-# Brightspot Initialition
+# Brightspot Initialization
 Creates a running local instance of Brightspot on your environment
 
 ## Local Environment Setup
