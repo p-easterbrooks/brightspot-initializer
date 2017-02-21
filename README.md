@@ -111,7 +111,7 @@ At a minimum you will need to replace anything enclosed in **${ }** with your en
 ```
 The new file will need to be configured. Replace the values outlined below with your own. Note, the snippet above is editable.
 
-- **`${DB_NAME}`** - the name of the MySQL database you created (e.g., `playbill`).
+- **`${DB_NAME}`** - the name of the MySQL database you created (e.g., `brightspot`).
 - **`${DB_USER}`** - the username to login to your MySQL database.
 - **`${DB_PASS}`** - the password to login to your MySQL database.
 - **`${TOMCAT_HOME}`** - The directory where tomcat is installed (e.g., `/usr/local/apache-tomcat`).
@@ -124,7 +124,8 @@ The new file will need to be configured. Replace the values outlined below with 
 
 Download [MySQL 5.6.x](https://dev.mysql.com/downloads/mysql/5.6.html#downloads) and install it using the default installation for your platform (e.g., to `/usr/local/mysql`, now referred to as `${MYSQL_HOME}`.).
 
-Once MySQL is installed, you only need to create an empty database for the CMS (e.g., `playbill` -- this is the value of `${DB_NAME}`).
+Once MySQL is installed, you only need to create an empty database for the CMS (e.g., `brightspot
+` -- this is the value of `${DB_NAME}`).
 Brightspot/Dari will take care of creating the necessary tables the first time the CMS/Tomcat is started. 
 
 ###### my.cnf
