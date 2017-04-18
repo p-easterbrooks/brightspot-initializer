@@ -1,1 +1,0 @@
-define(["bsp-utils","js.cookie","jquery"],function(e,n,t){var o=n.get("bsp.csrf");o&&(e.onDomInsert(document,"form",{insert:function(e){t(e).append(t("<input/>",{type:"hidden",name:"_csrf",value:o}))}}),t(document).ajaxSend(function(e,n,t){"POST"===t.type&&n.setRequestHeader("Brightspot-CSRF",o)}))});

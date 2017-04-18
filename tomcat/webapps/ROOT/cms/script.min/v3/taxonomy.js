@@ -1,1 +1,0 @@
-define(["jquery"],function(n){n(document).on("frame-load",".frame.taxonChildren",function(){n(this).closest(".taxonomyContainer").scrollLeft(3e4)})});

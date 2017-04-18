@@ -1,1 +1,0 @@
-define(["bsp-utils"],function(n){n.onDomInsert(document,".inputContainer-readOnly :text, .inputContainer-readOnly textarea",{insert:function(n){n.readOnly=!0}})});

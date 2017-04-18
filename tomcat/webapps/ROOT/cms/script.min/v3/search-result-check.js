@@ -1,1 +1,0 @@
-define(["jquery"],function(c){c(document).on("change",".searchResult-checkAll",function(){var e=c(this),n=e.prop("checked");e.closest("table").find("> tbody :checkbox").each(function(){var e=c(this);e.prop("checked",n),e.change()})}),c(document).on("click",".searchResult-images img",function(){c(this).closest("figure").find(":checkbox").click()})});
