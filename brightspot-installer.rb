@@ -1,4 +1,4 @@
-class BSPInstall < Formula
+class Brightspot_Installer < Formula
   desc "Brightspot Server Installer"
   homepage "https://github.com/p-easterbrooks/homebrew-brightspot-initializer"
   url "https://github.com/p-easterbrooks/homebrew-brightspot-initializer/archive/v0.1.tar.gz"
