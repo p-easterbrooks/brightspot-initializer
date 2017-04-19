@@ -1,5 +1,4 @@
-# Homebrew Tap for the Brightspot Server Installation Tool (Bash)
-
+# Homebrew Tap for the [Brightspot Server Installation Tool](https://github.com/OttoHagg/brightspot-server-install/wiki/Shell-Script-Version)
 ## Minimum Requirements
 
 * Homebrew 1.1.13
