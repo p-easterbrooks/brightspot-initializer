@@ -3,7 +3,7 @@
 ## Minimum Requirements
 
 * Homebrew 1.1.13
-* UNIX-based operating system (i.e. OSX/macOS, Linux)
+* macOS
 * Bash 3.2 or greater (`bash --version` to check)
 * MySQL 5.6.* or greater (must be running when executing install script). Make sure MySQL is on your PATH
 * [GNU Wget 1.18](https://www.gnu.org/software/wget/), can be found using `apt-get install wget` on most Linux flavors, `brew install wget` on [Homebrew for macOS](https://brew.sh/), or through download links
