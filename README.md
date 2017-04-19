@@ -6,6 +6,6 @@
 * Bash 3.2 or greater (`bash --version` to check)
 
 ## Installation
-To install the BSIT and all necessary files, execute `brew install p-easterbrooks/brightspot-initializer/installer`
+To install the BLIT and all necessary files, execute `brew install p-easterbrooks/blit/blit`
 
-To use the tool, simply run `bsit`
+To use the tool, simply run `blit`
