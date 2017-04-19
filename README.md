@@ -1,4 +1,4 @@
-# Homebrew Tap for the [Brightspot Server Installation Tool](https://github.com/p-easterbrooks/blit)
+# Homebrew Tap for the [Brightspot Local Installation Tool](https://github.com/p-easterbrooks/blit)
 ## Minimum Requirements
 
 * Homebrew 1.1.13
