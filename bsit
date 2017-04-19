@@ -17,9 +17,9 @@ lineBreak() {
 }
 
 createProject() {
-    mkdir -p ./$PROJECT_NAME
     echo -n "Git Clone URL (HTTPS): "
     read GIT_URL
+    mkdir -p ./$PROJECT_NAME
     cd $PROJECT_NAME
     # Clone in project repo and download, extract, and delete tomcat
     PROJECT_DIR=$(basename $GIT_URL)-project
