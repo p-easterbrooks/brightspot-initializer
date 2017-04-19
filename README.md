@@ -9,4 +9,4 @@
 ## Installation
 To install the BSIT and all necessary files, execute `brew install p-easterbrooks/brightspot-initializer/installer`
 
-To use the tool, simply run `bsp-install`
+To use the tool, simply run `bsit`
