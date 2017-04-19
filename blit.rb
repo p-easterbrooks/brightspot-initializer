@@ -1,4 +1,4 @@
-class Install < Formula
+class Blit < Formula
   desc "Brightspot Server Installer"
   homepage "https://github.com/p-easterbrooks/blit"
   url "https://github.com/p-easterbrooks/blit/archive/v0.2.2.tar.gz"
