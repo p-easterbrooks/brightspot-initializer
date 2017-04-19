@@ -1,4 +1,4 @@
-# Homebrew installer for the Brightspot Server Installation Tool (Bash)
+# Homebrew Tap for the Brightspot Server Installation Tool (Bash)
 
 ## Minimum Requirements
 
