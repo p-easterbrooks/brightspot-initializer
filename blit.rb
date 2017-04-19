@@ -2,8 +2,8 @@ class BLIT < Formula
   desc "Brightspot Server Installer"
   homepage "https://github.com/p-easterbrooks/blit"
   url "https://github.com/p-easterbrooks/blit/archive/v0.1.tar.gz"
-  version "0.1"
-  sha256 "12b32c0e2239c22aee6b612def99231d40e3157b6d6ed6bbc0855cfae817857e"
+  version "0.2.2"
+  sha256 "8244b718846244d0f0e2dbc80840bb6135d4df31ef8c4c999875895681a311ea"
 
   def install
     bin.install "blit"
