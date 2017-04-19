@@ -50,7 +50,7 @@ createProject() {
 }
 
 start_time=`date +%s`
-`echo "Brightspot Installation"
+echo "Brightspot Installation"
 while true; do
     validateName
     if [[ ! -z $PROJECT_NAME ]]; then
