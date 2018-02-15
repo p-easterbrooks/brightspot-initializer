@@ -1,9 +1,9 @@
 class Blitz < Formula
   desc "Brightspot Server Installation Tool"
   homepage "https://github.com/p-easterbrooks/blitz"
-  url "https://github.com/p-easterbrooks/blitz/archive/v0.5.2.tar.gz"
-  version "0.5.2"
-  sha256 "e3f005a8bbb2813f0112e18bd3f88a0be226b74ba7059e10917cfdaf17c58cc0"
+  url "https://github.com/p-easterbrooks/blitz/archive/v0.6.tar.gz"
+  version "0.6"
+  sha256 "ace7ad3b141202c5d4187cc0311504a60820c3b331e6833ac98291d4ec5239a6"
 
   def install
     bin.install "blitz"
